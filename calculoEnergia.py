@@ -1,11 +1,11 @@
 '''
 Turma: 4ECR
 Alunos: 
-Felipe Torigoe Carrera 			    RM 79896
-Guilherme Fujii Ramalho Filgueiras 	RM 79932
-Matheus Issao Bocci 			    RM 81542
-Matheus Pereira Nascimento		    RM 81618
-Richard Rodrigues				    RM 80906
+Felipe Torigoe Carrera              RM 79896
+Guilherme Fujii Ramalho Filgueiras  RM 79932
+Matheus Issao Bocci                 RM 81542
+Matheus Pereira Nascimento          RM 81618
+Richard Rodrigues                   RM 80906
 '''
 
 tusd = 0.24332
