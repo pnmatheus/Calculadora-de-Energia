@@ -55,10 +55,16 @@ f'\nCOSIP Barueri: R${cosip}'
 f'\nICMS: {icms}%'
 '\n\n*Valores com impostos\n')
 
-parcial1 = ((tusd*kwh) + (te*kwh) + (bandeira*kwh)) * (1+(pisPasep/100))
+tp1 = tusd*kwh
 
-parcial2 = parcial1 * (1+(cofins/100))
+tp2 = te*kwh
 
-valorFinal = parcial2 + cosip
+tp3 = bandeira*kwh
 
-print(f'\nO valor da conta de energia será de: R${valorFinal}\n')
+tp4 = (tp1 + tp2 + tp3) * (1+(pisPasep/100))
+
+tp5 = tp4 * (1+(cofins/100))
+
+total = tp5 + cosip
+
+print(f'\nO valor da conta de energia será de: R${total}\n')
