@@ -1,43 +1,43 @@
 ### Fórmulas para o Cálculo da Conta de Energia 
 
-- **Uso do Sistema e Destribuição**
+- **Uso do Sistema e Distribuição**
 
-  Qtd. kWh * Tarifa de Uso do Sistema e Destribuição (TUSD) c/Impostos
+  Uso do Sistema e Distribuição = Qtd. kWh * Tarifa de Uso do Sistema e Distribuição (TUSD) c/Impostos
 
   *Adotando TUSD c/Impostos = R$0,24332*
 
 - **Energia**
 
-  Qtd. kWh * Tarifa de Energia (TE) c/Impostos
+  Energia = Qtd. kWh * Tarifa de Energia (TE) c/Impostos
 
   *Adotando TE c/Impostos = R$ 0,3099*
 
-- **Adicional Bandeira Amarela**
+- **Adicional Bandeira Amarela e Outras** 
 
-  Qtd. kWh * Tarifa da Bandeira Amarela
+  Adicional Bandeira = Qtd. kWh * Tarifa da Bandeira
 
   *Adotando Tarifa da Bandeira Amarela = R$0,00278947*
 
-  
-
-  Teremos então o ***Total Parcial*** igual a (**Uso do Sistema e Destribuição** + **Energia** + **Adicional Bandeira Amarela**)
-
-  
+  Teremos então o ***Total Parcial1*** = (**Uso do Sistema e Distribuição** + **Energia** + **Adicional Bandeira Amarela**)
 
 - **PIS/Pasep**
 
-  Total Parcial 1 * %PIS/PASEP resultando em um Total Parcial 2
+  Total Parcial 2 = Total Parcial 1 * %PIS/PASEP 
 
   *Adotando PIS/PASEP = 0,92%*
 
 - **COFINS**
 
-  Total Parcial 2 * %COFINS resultando em um Total Parcial 3
+  Total Parcial 3 = Total Parcial 2 * %COFINS
 
   *Adotando COFINS = 3,91%*
 
 - **COSIP**
 
-  Variavel de acordo com cada região, vamos adotar a de Barueri que é de R$ 4,40
+  Variável de acordo com cada região, vamos adotar a de Barueri que é de R$ 4,40
 
-  Com isso temos o total do conta de engergial igual a (**Total Parcial 3** + **COSIP**)
+  Com isso temos o total do conta de energia igual a (**Total Parcial 3** + **COSIP**)
+  
+  **Total = (Total Parcial 3+ COSIP)**
+  
+  
